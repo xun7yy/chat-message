@@ -1,0 +1,47 @@
+.sort-contianer {
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 20px;
+    z-index: 99999;
+}
+.sort-inner {
+    position: relative;
+}
+.selectedSort {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    padding: 8px 15px;
+    width: 100px;
+    background-color: #f0f1f2;
+    border-radius: 7px;
+    color: #28b9d1;
+}
+.icon-down {
+    font-size: 20px;
+    margin-top: -10%;
+    margin-left: 10px;
+}
+.dropdown {
+    display: none;
+    top: 30px;
+    width: 100%;
+    padding: 10px 0;
+    box-shadow: 0 0 6px rgb(0 0 0 / 30%);
+    border: 1px solid #ddd;
+    background-color: white;
+}
+.dropdown.open {
+    display: block;
+    position: absolute;
+}
+.dropdown-row {
+    text-align: center;
+    padding: 8px 0;
+    cursor: pointer;
+    color: #3b3d3f;
+    font-size: 14px;
+}
+.dropdown-row:hover {
+    background-color: #f0f1f2;
+}
